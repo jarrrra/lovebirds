@@ -1955,7 +1955,7 @@ window.OverworldMaps = function (name, index) {
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
                                     {type: "addObject", name: "lamp1", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(3),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -1966,9 +1966,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(7, 10)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
-                                    {type: "addObject", name: "lamp12", inside: new GameObject({
+                                    {type: "addObject", name: "lamp1", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(3),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -1979,9 +1979,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(7, 11)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
-                                    {type: "addObject", name: "lamp12", inside: new GameObject({
+                                    {type: "addObject", name: "lamp1", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(3),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -1992,9 +1992,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(7, 12)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
-                                    {type: "addObject", name: "lamp12", inside: new GameObject({
+                                    {type: "addObject", name: "lamp1", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(3),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2005,9 +2005,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(7, 13)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
-                                    {type: "addObject", name: "lamp12", inside: new GameObject({
+                                    {type: "addObject", name: "lamp1", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(3),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2020,9 +2020,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(25, 9)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
-                                    {type: "addObject", name: "lamp22", inside: new GameObject({
+                                    {type: "addObject", name: "lamp2", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(21),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2033,9 +2033,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(25, 10)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
-                                    {type: "addObject", name: "lamp22", inside: new GameObject({
+                                    {type: "addObject", name: "lamp2", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(21),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2046,9 +2046,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(25, 11)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
-                                    {type: "addObject", name: "lamp22", inside: new GameObject({
+                                    {type: "addObject", name: "lamp2", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(21),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2059,9 +2059,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(25, 12)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
-                                    {type: "addObject", name: "lamp22", inside: new GameObject({
+                                    {type: "addObject", name: "lamp2", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(21),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2072,9 +2072,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(25, 13)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
-                                    {type: "addObject", name: "lamp22", inside: new GameObject({
+                                    {type: "addObject", name: "lamp2", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(21),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2087,9 +2087,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(44, 9)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
-                                    {type: "addObject", name: "lamp32", inside: new GameObject({
+                                    {type: "addObject", name: "lamp3", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(39),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2100,9 +2100,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(44, 10)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
-                                    {type: "addObject", name: "lamp32", inside: new GameObject({
+                                    {type: "addObject", name: "lamp3", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(39),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2113,9 +2113,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(44, 11)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
-                                    {type: "addObject", name: "lamp32", inside: new GameObject({
+                                    {type: "addObject", name: "lamp3", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(39),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2126,9 +2126,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(44, 12)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
-                                    {type: "addObject", name: "lamp32", inside: new GameObject({
+                                    {type: "addObject", name: "lamp3", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(39),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
@@ -2139,9 +2139,9 @@ window.OverworldMaps = function (name, index) {
                             [utils.asGridCoord(44, 13)] : [{
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
-                                    {type: "addObject", name: "lamp32", inside: new GameObject({
+                                    {type: "addObject", name: "lamp3", inside: new GameObject({
                                             src: "assets/images/backgrounds/lightpole_off.png",
-                                            x: utils.withGrid(57),
+                                            x: utils.withGrid(39),
                                             y : utils.withGrid(0),
                                             width: 30,
                                             height: 161
