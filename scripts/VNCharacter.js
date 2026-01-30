@@ -8,7 +8,7 @@ class VNCharacter{
     }
 
     imageChangeSrc(src) {
-        this.image.src = "/assets/images/characters/VN/" + src + ".png";
+        this.image.src = "./assets/images/characters/VN/" + src + ".png";
     }
 
     draw(ctx) {

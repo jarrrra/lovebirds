@@ -17,10 +17,10 @@ class Person extends GameObject {
         }
         this.sprite = new Sprite({
             gameObject: this,
-            src: config.src || "/assets/images/characters/mc.png",
+            src: config.src || "./assets/images/characters/mc.png",
         });
 
-        this.footsteps = new Audio("assets/sounds/sfx/footsteps.mp3");
+        this.footsteps = new Audio("./assets/sounds/sfx/footsteps.mp3");
 
         this.savedDirection = "right";
         this.isEnemy = config.isEnemy || false;

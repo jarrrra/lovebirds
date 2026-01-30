@@ -29,7 +29,7 @@ body
     margin: 0 auto;
     outline: 1px solid white;
 
-    transform: scale(2) translateY(45%);
+    transform: scale(2) translateY(40%);
 }
 
 .game-container canvas {

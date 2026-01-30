@@ -13,7 +13,7 @@ class TitleScreen {
 
         if (this.saveFile) {
             this.element.innerHTML = (`
-                <img src="assets/images/UI/titlescreen.png" alt="Lovebirds Title Screen" />
+                <img src="./assets/images/UI/titlescreen.png" alt="Lovebirds Title Screen" />
                 <div class="TitleScreen_div">
                     <button id="newgame" class="TitleScreen_button" onmouseover="window.hovered(true, this.id)" onmouseleave="window.hovered(false, this.id)" onclick=window.startNewGame()>New Game</button>
                     </br>
@@ -23,7 +23,7 @@ class TitleScreen {
         }
         else {
             this.element.innerHTML = (`
-                <img src="assets/images/UI/titlescreen.png" alt="Lovebirds Title Screen" />
+                <img src="./assets/images/UI/titlescreen.png" alt="Lovebirds Title Screen" />
                 <div class="TitleScreen_div">
                     <button id="newgame" class="TitleScreen_button" onmouseover="window.hovered(true, this.id)" onmouseleave="window.hovered(false, this.id)" onclick=window.startNewGame()>New Game</button>
                 </div>
