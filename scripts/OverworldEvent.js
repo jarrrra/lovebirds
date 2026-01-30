@@ -118,7 +118,7 @@ class OverworldEvent {
         const who = this.map.gameObjects[this.event.who];
 
         if (this.map.gameObjects[this.event.object] !== undefined) {
-            this.map.startCutscene(this.event.additions);
+            this.map.startNonCutscene(this.event.additions);
         }
         resolve();
     }

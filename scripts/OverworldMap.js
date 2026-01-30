@@ -85,6 +85,16 @@ class OverworldMap {
         });
     }
 
+    async startNonCutscene(events) {
+        for (let i=0; i<events.length; i++) {
+            const eventHandler = new OverworldEvent({
+                event: events[i],
+                map: this
+            });
+            await eventHandler.init();
+        }
+    }
+
     checkRadiusPresence(hero, object, multiplier) {
         const nextCoordsUP = utils.nextPosition(hero.x, hero.y, "up", multiplier);
         const nextCoordsDOWN = utils.nextPosition(hero.x, hero.y, "down", multiplier);
