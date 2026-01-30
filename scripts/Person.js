@@ -224,7 +224,7 @@ class Person extends GameObject {
 
     updatePosition(state) {
         if (this.movingProgressRemaining % 16 === 0 && this.movingProgressRemaining > 0) {
-            if (!this.chase && state.map.isSpaceTaken(this.x, this.y, this.direction, 1)) {
+            if (state.map.isSpaceTaken(this.x, this.y, this.direction, 1) && !state.map.checkRadiusPresence(this, state.map.gameObjects.hero, 1)) {
                 this.movingProgressRemaining = 0;
                 utils.emitEvent("PersonWalkingComplete", {
                     whoId: this.id

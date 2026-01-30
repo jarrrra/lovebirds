@@ -75,10 +75,11 @@ class OverworldMap {
         }
 
         Object.values(this.gameObjects).forEach(object => {
-            object.behaviorLoopIndex = 0;
             if (object.returnAfterChase) {
+                this.removeWall(object.x, object.y);
                 object.x = object.startPosition.x;
                 object.y = object.startPosition.y;
+                this.addWall(object.x, object.y);
             }
             object.doBehaviourEvent(this);
         });
@@ -180,7 +181,6 @@ class OverworldMap {
                     object.y = object.startPosition.y;
                     this.addWall(object.x, object.y);
                 }
-                object.behaviorLoopIndex = 0;
                 object.doBehaviourEvent(this);
             }
             object.chase = false;
@@ -3306,7 +3306,7 @@ window.OverworldMaps = function (name, index) {
                         gameObjects: {
                             key: new Items({
                                 x: utils.withGrid(22),
-                                y: utils.withGrid(12),
+                                y: utils.withGrid(13),
                                 src: "assets/images/items/key.png",
                                 talking: [{
                                     events: [
@@ -3346,7 +3346,7 @@ window.OverworldMaps = function (name, index) {
                             npc1: new Person({
                                 isEnemy: true,
                                 x: utils.withGrid(24),
-                                y: utils.withGrid(8),
+                                y: utils.withGrid(9),
                                 returnAfterChase: true,
                                 src: "assets/images/characters/gf_dad.png",
                                 behaviorLoop: [
@@ -3356,10 +3356,10 @@ window.OverworldMaps = function (name, index) {
                                     {type: "walk", direction: "right", time: 7},
                                     {type: "checkChange", object: "food", additions: [
                                             {who: "npc1", type: "walk", direction: "left", time: 7},
-                                            {who: "npc1", type: "walk", direction: "down", time: 3},
+                                            {who: "npc1", type: "walk", direction: "down", time: 2},
                                             {who: "npc1", type: "stand", direction: "", time: 100},
                                             {type: "removeObject", object: null, who: "food", text: ""},
-                                            {who: "npc1", type: "walk", direction: "up", time: 3},
+                                            {who: "npc1", type: "walk", direction: "up", time: 2},
                                             {who: "npc1", type: "walk", direction: "right", time: 7},
                                         ]},
                                     {type: "checkChange", object: "sleeping_state", additions: [

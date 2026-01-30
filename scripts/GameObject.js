@@ -62,6 +62,7 @@ class GameObject {
 
         let eventConfig = this.behaviorLoop[this.behaviorLoopIndex];
         eventConfig.who = this.id;
+        this.startPosition = { x : this.x, y : this.y };
 
         const eventHandler = new OverworldEvent({ map, event : eventConfig });
         await eventHandler.init();
