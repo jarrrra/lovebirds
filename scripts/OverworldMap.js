@@ -241,14 +241,14 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "DemoRoom",
-                        lowerSrc: "./assets/images/backgrounds/mc_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_second_floor.png",
                         upperSrc: "",
                         music: "VNStartMC",
                         gameObjects: {
                             key: new Items({
                                 x: utils.withGrid(10),
                                 y: utils.withGrid(4),
-                                src: "./assets/images/items/key.png",
+                                src: "assets/images/items/key.png",
                                 talking: [{
                                     events: [
                                         {type: "itemPicked", who: "key"}
@@ -369,7 +369,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "VNPartMCHouse",
-                        lowerSrc: "./assets/images/backgrounds/mc_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/mc_bedroom.png",
                         upperSrc: "",
                         music: "VNStartMC",
                         gameObjects: {
@@ -397,7 +397,7 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "VNPartMCHouse",
-                        lowerSrc: "./assets/images/backgrounds/mc_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/mc_bedroom.png",
                         upperSrc: "",
                         music: "VNStartMC",
                         gameObjects: {
@@ -420,7 +420,7 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "VNPartMCHouse",
-                        lowerSrc: "./assets/images/backgrounds/mc_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/mc_bedroom.png",
                         upperSrc: "",
                         music: "VNStartMC",
                         gameObjects: {
@@ -443,7 +443,7 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "VNPartMCHouse",
-                        lowerSrc: "./assets/images/backgrounds/mc_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/mc_bedroom.png",
                         upperSrc: "",
                         music: "VNStartMC",
                         gameObjects: {
@@ -465,8 +465,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "VNPartMCHouse",
-                        lowerSrc: "./assets/images/backgrounds/mc_bedroom.png",
-                        upperSrc: "./assets/images/backgrounds/darkest.png",
+                        lowerSrc: "assets/images/backgrounds/mc_bedroom.png",
+                        upperSrc: "assets/images/backgrounds/darkest.png",
                         music: "VNEnd",
                         gameObjects: {
                             hero: new Person({
@@ -493,7 +493,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "MCSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -531,7 +531,7 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "MCSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -569,7 +569,7 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "MCSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -607,7 +607,7 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "MCSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -645,8 +645,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "MCSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_second_floor.png",
-                        upperSrc: "./assets/images/backgrounds/darkest.png",
+                        lowerSrc: "assets/images/backgrounds/mc_second_floor.png",
+                        upperSrc: "assets/images/backgrounds/darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -688,7 +688,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "MCFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -698,28 +698,28 @@ window.OverworldMaps = function (name, index) {
                                 y: utils.withGrid(4.5),
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv_color.png",
+                                src: "assets/images/objects/tv_color.png",
                                 x: utils.withGrid(0.5),
                                 y: utils.withGrid(1.5),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair_color.png",
+                                src: "assets/images/objects/chair_color.png",
                                 x: utils.withGrid(4.5),
                                 y: utils.withGrid(2.5),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa_color.png",
+                                src: "assets/images/objects/sofa_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(5.5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard_color.png",
+                                src: "assets/images/objects/cupboard_color.png",
                                 x: utils.withGrid(9.5),
                                 y: utils.withGrid(2.5),
                                 width: 29,
@@ -731,7 +731,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table_color.png",
+                                src: "assets/images/objects/table_color.png",
                                 x: utils.withGrid(3.5),
                                 y: utils.withGrid(11.5),
                                 width: 82,
@@ -743,7 +743,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop_color.png",
+                                src: "assets/images/objects/chairtop_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(10.5),
                                 width: 14,
@@ -755,7 +755,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom_color.png",
+                                src: "assets/images/objects/chairbottom_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(15.5),
                                 width: 15,
@@ -767,7 +767,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft_color.png",
+                                src: "assets/images/objects/chairleft_color.png",
                                 x: utils.withGrid(8.5),
                                 y: utils.withGrid(12.5),
                                 width: 22,
@@ -779,7 +779,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright_color.png",
+                                src: "assets/images/objects/chairright_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(12.5),
                                 width: 18,
@@ -791,7 +791,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen_color.png",
+                                src: "assets/images/objects/kitchen_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -803,14 +803,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant_color.png",
+                                src: "assets/images/objects/plant_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(9.5),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink_color.png",
+                                src: "assets/images/objects/sink_color.png",
                                 x: utils.withGrid(18.5),
                                 y: utils.withGrid(12.5),
                                 width: 50,
@@ -822,14 +822,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet_color.png",
+                                src: "assets/images/objects/toilet_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(15.5),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub_color.png",
+                                src: "assets/images/objects/bathtub_color.png",
                                 x: utils.withGrid(23.5),
                                 y: utils.withGrid(12.5),
                                 width: 25,
@@ -882,7 +882,7 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "MCFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -892,28 +892,28 @@ window.OverworldMaps = function (name, index) {
                                 y: utils.withGrid(4.5),
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv_color.png",
+                                src: "assets/images/objects/tv_color.png",
                                 x: utils.withGrid(0.5),
                                 y: utils.withGrid(1.5),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair_color.png",
+                                src: "assets/images/objects/chair_color.png",
                                 x: utils.withGrid(4.5),
                                 y: utils.withGrid(2.5),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa_color.png",
+                                src: "assets/images/objects/sofa_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(5.5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard_color.png",
+                                src: "assets/images/objects/cupboard_color.png",
                                 x: utils.withGrid(9.5),
                                 y: utils.withGrid(2.5),
                                 width: 29,
@@ -925,7 +925,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table_color.png",
+                                src: "assets/images/objects/table_color.png",
                                 x: utils.withGrid(3.5),
                                 y: utils.withGrid(11.5),
                                 width: 82,
@@ -937,7 +937,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop_color.png",
+                                src: "assets/images/objects/chairtop_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(10.5),
                                 width: 14,
@@ -949,7 +949,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom_color.png",
+                                src: "assets/images/objects/chairbottom_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(15.5),
                                 width: 15,
@@ -961,7 +961,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft_color.png",
+                                src: "assets/images/objects/chairleft_color.png",
                                 x: utils.withGrid(8.5),
                                 y: utils.withGrid(12.5),
                                 width: 22,
@@ -973,7 +973,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright_color.png",
+                                src: "assets/images/objects/chairright_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(12.5),
                                 width: 18,
@@ -985,7 +985,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen_color.png",
+                                src: "assets/images/objects/kitchen_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -997,14 +997,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant_color.png",
+                                src: "assets/images/objects/plant_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(9.5),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink_color.png",
+                                src: "assets/images/objects/sink_color.png",
                                 x: utils.withGrid(18.5),
                                 y: utils.withGrid(12.5),
                                 width: 50,
@@ -1016,14 +1016,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet_color.png",
+                                src: "assets/images/objects/toilet_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(15.5),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub_color.png",
+                                src: "assets/images/objects/bathtub_color.png",
                                 x: utils.withGrid(23.5),
                                 y: utils.withGrid(12.5),
                                 width: 25,
@@ -1076,7 +1076,7 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "MCFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -1088,7 +1088,7 @@ window.OverworldMaps = function (name, index) {
                             npc1: new Person({
                                 x: utils.withGrid(6.5),
                                 y: utils.withGrid(7.5),
-                                src: "./assets/images/characters/mc_dad.png",
+                                src: "assets/images/characters/mc_dad.png",
                                 behaviorLoop: [
                                     {type: "stand", direction: "", time: -1}
                                 ],
@@ -1101,7 +1101,7 @@ window.OverworldMaps = function (name, index) {
                             npc2: new Person({
                                 x: utils.withGrid(2.5),
                                 y: utils.withGrid(7.5),
-                                src: "./assets/images/characters/mc_mom.png",
+                                src: "assets/images/characters/mc_mom.png",
                                 behaviorLoop: [
                                     {type: "stand", direction: "", time: -1}
                                 ],
@@ -1112,28 +1112,28 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv_color.png",
+                                src: "assets/images/objects/tv_color.png",
                                 x: utils.withGrid(0.5),
                                 y: utils.withGrid(1.5),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair_color.png",
+                                src: "assets/images/objects/chair_color.png",
                                 x: utils.withGrid(4.5),
                                 y: utils.withGrid(2.5),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa_color.png",
+                                src: "assets/images/objects/sofa_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(5.5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard_color.png",
+                                src: "assets/images/objects/cupboard_color.png",
                                 x: utils.withGrid(9.5),
                                 y: utils.withGrid(2.5),
                                 width: 29,
@@ -1145,7 +1145,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table_color.png",
+                                src: "assets/images/objects/table_color.png",
                                 x: utils.withGrid(3.5),
                                 y: utils.withGrid(11.5),
                                 width: 82,
@@ -1157,7 +1157,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop_color.png",
+                                src: "assets/images/objects/chairtop_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(10.5),
                                 width: 14,
@@ -1169,7 +1169,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom_color.png",
+                                src: "assets/images/objects/chairbottom_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(15.5),
                                 width: 15,
@@ -1181,7 +1181,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft_color.png",
+                                src: "assets/images/objects/chairleft_color.png",
                                 x: utils.withGrid(8.5),
                                 y: utils.withGrid(12.5),
                                 width: 22,
@@ -1193,7 +1193,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright_color.png",
+                                src: "assets/images/objects/chairright_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(12.5),
                                 width: 18,
@@ -1205,7 +1205,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen_color.png",
+                                src: "assets/images/objects/kitchen_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -1217,14 +1217,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant_color.png",
+                                src: "assets/images/objects/plant_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(9.5),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink_color.png",
+                                src: "assets/images/objects/sink_color.png",
                                 x: utils.withGrid(18.5),
                                 y: utils.withGrid(12.5),
                                 width: 50,
@@ -1236,14 +1236,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet_color.png",
+                                src: "assets/images/objects/toilet_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(15.5),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub_color.png",
+                                src: "assets/images/objects/bathtub_color.png",
                                 x: utils.withGrid(23.5),
                                 y: utils.withGrid(12.5),
                                 width: 25,
@@ -1296,7 +1296,7 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "MCFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -1309,7 +1309,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(20.5),
                                 y: utils.withGrid(6.5),
-                                src: "./assets/images/characters/mc_dad.png",
+                                src: "assets/images/characters/mc_dad.png",
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1}
                                 ]
@@ -1317,34 +1317,34 @@ window.OverworldMaps = function (name, index) {
                             npc2: new Person({
                                 x: utils.withGrid(2.5),
                                 y: utils.withGrid(7.5),
-                                src: "./assets/images/characters/mc_mom.png",
+                                src: "assets/images/characters/mc_mom.png",
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1}
                                 ]
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv_color.png",
+                                src: "assets/images/objects/tv_color.png",
                                 x: utils.withGrid(0.5),
                                 y: utils.withGrid(1.5),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair_color.png",
+                                src: "assets/images/objects/chair_color.png",
                                 x: utils.withGrid(4.5),
                                 y: utils.withGrid(2.5),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa_color.png",
+                                src: "assets/images/objects/sofa_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(5.5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard_color.png",
+                                src: "assets/images/objects/cupboard_color.png",
                                 x: utils.withGrid(9.5),
                                 y: utils.withGrid(2.5),
                                 width: 29,
@@ -1356,7 +1356,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table_color.png",
+                                src: "assets/images/objects/table_color.png",
                                 x: utils.withGrid(3.5),
                                 y: utils.withGrid(11.5),
                                 width: 82,
@@ -1368,7 +1368,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop_color.png",
+                                src: "assets/images/objects/chairtop_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(10.5),
                                 width: 14,
@@ -1380,7 +1380,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom_color.png",
+                                src: "assets/images/objects/chairbottom_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(15.5),
                                 width: 15,
@@ -1392,7 +1392,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft_color.png",
+                                src: "assets/images/objects/chairleft_color.png",
                                 x: utils.withGrid(8.5),
                                 y: utils.withGrid(12.5),
                                 width: 22,
@@ -1404,7 +1404,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright_color.png",
+                                src: "assets/images/objects/chairright_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(12.5),
                                 width: 18,
@@ -1416,7 +1416,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen_color.png",
+                                src: "assets/images/objects/kitchen_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -1428,14 +1428,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant_color.png",
+                                src: "assets/images/objects/plant_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(9.5),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink_color.png",
+                                src: "assets/images/objects/sink_color.png",
                                 x: utils.withGrid(18.5),
                                 y: utils.withGrid(12.5),
                                 width: 50,
@@ -1447,14 +1447,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet_color.png",
+                                src: "assets/images/objects/toilet_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(15.5),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub_color.png",
+                                src: "assets/images/objects/bathtub_color.png",
                                 x: utils.withGrid(23.5),
                                 y: utils.withGrid(12.5),
                                 width: 25,
@@ -1507,8 +1507,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "MCFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/mc_first_floor.png",
-                        upperSrc: "./assets/images/backgrounds/darkest.png",
+                        lowerSrc: "assets/images/backgrounds/mc_first_floor.png",
+                        upperSrc: "assets/images/backgrounds/darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -1517,28 +1517,28 @@ window.OverworldMaps = function (name, index) {
                                 y: utils.withGrid(4.5),
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv_color.png",
+                                src: "assets/images/objects/tv_color.png",
                                 x: utils.withGrid(0.5),
                                 y: utils.withGrid(1.5),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair_color.png",
+                                src: "assets/images/objects/chair_color.png",
                                 x: utils.withGrid(4.5),
                                 y: utils.withGrid(2.5),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa_color.png",
+                                src: "assets/images/objects/sofa_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(5.5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard_color.png",
+                                src: "assets/images/objects/cupboard_color.png",
                                 x: utils.withGrid(9.5),
                                 y: utils.withGrid(2.5),
                                 width: 29,
@@ -1550,7 +1550,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table_color.png",
+                                src: "assets/images/objects/table_color.png",
                                 x: utils.withGrid(3.5),
                                 y: utils.withGrid(11.5),
                                 width: 82,
@@ -1562,7 +1562,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop_color.png",
+                                src: "assets/images/objects/chairtop_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(10.5),
                                 width: 14,
@@ -1574,7 +1574,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom_color.png",
+                                src: "assets/images/objects/chairbottom_color.png",
                                 x: utils.withGrid(5.5),
                                 y: utils.withGrid(15.5),
                                 width: 15,
@@ -1586,7 +1586,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft_color.png",
+                                src: "assets/images/objects/chairleft_color.png",
                                 x: utils.withGrid(8.5),
                                 y: utils.withGrid(12.5),
                                 width: 22,
@@ -1598,7 +1598,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright_color.png",
+                                src: "assets/images/objects/chairright_color.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(12.5),
                                 width: 18,
@@ -1610,7 +1610,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen_color.png",
+                                src: "assets/images/objects/kitchen_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -1622,14 +1622,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant_color.png",
+                                src: "assets/images/objects/plant_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(9.5),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink_color.png",
+                                src: "assets/images/objects/sink_color.png",
                                 x: utils.withGrid(18.5),
                                 y: utils.withGrid(12.5),
                                 width: 50,
@@ -1641,14 +1641,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet_color.png",
+                                src: "assets/images/objects/toilet_color.png",
                                 x: utils.withGrid(16.5),
                                 y: utils.withGrid(15.5),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub_color.png",
+                                src: "assets/images/objects/bathtub_color.png",
                                 x: utils.withGrid(23.5),
                                 y: utils.withGrid(12.5),
                                 width: 25,
@@ -1709,8 +1709,8 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "Outside",
-                        lowerSrc: "./assets/images/backgrounds/street.png",
-                        upperSrc: "./assets/images/backgrounds/street_upper.png",
+                        lowerSrc: "assets/images/backgrounds/street.png",
+                        upperSrc: "assets/images/backgrounds/street_upper.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -1721,28 +1721,28 @@ window.OverworldMaps = function (name, index) {
                             lamp1 : new GameObject({
                                 x: utils.withGrid(3),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp2 : new GameObject({
                                 x: utils.withGrid(21),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp3 : new GameObject({
                                 x: utils.withGrid(39),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp4 : new GameObject({
                                 x: utils.withGrid(57),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             })
@@ -1781,8 +1781,8 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "Outside",
-                        lowerSrc: "./assets/images/backgrounds/street.png",
-                        upperSrc: "./assets/images/backgrounds/street_upper_dark.png",
+                        lowerSrc: "assets/images/backgrounds/street.png",
+                        upperSrc: "assets/images/backgrounds/street_upper_dark.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -1793,56 +1793,56 @@ window.OverworldMaps = function (name, index) {
                             lamp1 : new GameObject({
                                 x: utils.withGrid(3),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light1 : new GameObject({
                                 x: utils.withGrid(-2),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             }),
                             lamp2 : new GameObject({
                                 x: utils.withGrid(21),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light2 : new GameObject({
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             }),
                             lamp3 : new GameObject({
                                 x: utils.withGrid(39),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light3 : new GameObject({
                                 x: utils.withGrid(34),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             }),
                             lamp4 : new GameObject({
                                 x: utils.withGrid(57),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light4 : new GameObject({
                                 x: utils.withGrid(52),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             })
@@ -1881,8 +1881,8 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "Outside",
-                        lowerSrc: "./assets/images/backgrounds/street.png",
-                        upperSrc: "./assets/images/backgrounds/street_upper_darker.png",
+                        lowerSrc: "assets/images/backgrounds/street.png",
+                        upperSrc: "assets/images/backgrounds/street_upper_darker.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -1893,56 +1893,56 @@ window.OverworldMaps = function (name, index) {
                             lamp1 : new GameObject({
                                 x: utils.withGrid(3),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light1 : new GameObject({
                                 x: utils.withGrid(-2),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             }),
                             lamp2 : new GameObject({
                                 x: utils.withGrid(21),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light2 : new GameObject({
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             }),
                             lamp3 : new GameObject({
                                 x: utils.withGrid(39),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light3 : new GameObject({
                                 x: utils.withGrid(34),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             }),
                             lamp4 : new GameObject({
                                 x: utils.withGrid(57),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole.png",
+                                src: "assets/images/backgrounds/lightpole.png",
                                 width: 30,
                                 height: 161
                             }),
                             light4 : new GameObject({
                                 x: utils.withGrid(52),
                                 y: utils.withGrid(-4.5),
-                                src: "./assets/images/backgrounds/light.png",
+                                src: "assets/images/backgrounds/light.png",
                                 width: 179,
                                 height: 166
                             })
@@ -1954,7 +1954,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
                                     {type: "addObject", name: "lamp1", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -1967,7 +1967,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
                                     {type: "addObject", name: "lamp1", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -1980,7 +1980,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
                                     {type: "addObject", name: "lamp1", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -1993,7 +1993,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
                                     {type: "addObject", name: "lamp1", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2006,7 +2006,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp1", text: ""},
                                     {type: "addObject", name: "lamp1", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2021,7 +2021,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
                                     {type: "addObject", name: "lamp2", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2034,7 +2034,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
                                     {type: "addObject", name: "lamp2", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2047,7 +2047,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
                                     {type: "addObject", name: "lamp2", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2060,7 +2060,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
                                     {type: "addObject", name: "lamp2", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2073,7 +2073,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp2", text: ""},
                                     {type: "addObject", name: "lamp2", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2088,7 +2088,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
                                     {type: "addObject", name: "lamp3", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2101,7 +2101,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
                                     {type: "addObject", name: "lamp3", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2114,7 +2114,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
                                     {type: "addObject", name: "lamp3", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2127,7 +2127,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
                                     {type: "addObject", name: "lamp3", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2140,7 +2140,7 @@ window.OverworldMaps = function (name, index) {
                                 events : [
                                     {type: "removeObject", object: null, who: "lamp3", text: ""},
                                     {type: "addObject", name: "lamp3", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_off.png",
+                                            src: "assets/images/backgrounds/lightpole_off.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2155,7 +2155,7 @@ window.OverworldMaps = function (name, index) {
                                 events: [
                                     {type: "removeObject", object: null, who: "lamp4", text: ""},
                                     {type: "addObject", name: "lightpoleguy", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_guy.png",
+                                            src: "assets/images/backgrounds/lightpole_guy.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2169,7 +2169,7 @@ window.OverworldMaps = function (name, index) {
                                     {type: "playScare", src: "scare1"},
                                     {type: "removeObject", object: null, who: "lamp4", text: ""},
                                     {type: "addObject", name: "lightpoleguy", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_guy.png",
+                                            src: "assets/images/backgrounds/lightpole_guy.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2183,7 +2183,7 @@ window.OverworldMaps = function (name, index) {
                                     {type: "playScare", src: "scare1"},
                                     {type: "removeObject", object: null, who: "lamp4", text: ""},
                                     {type: "addObject", name: "lightpoleguy", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_guy.png",
+                                            src: "assets/images/backgrounds/lightpole_guy.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2197,7 +2197,7 @@ window.OverworldMaps = function (name, index) {
                                     {type: "playScare", src: "scare1"},
                                     {type: "removeObject", object: null, who: "lamp4", text: ""},
                                     {type: "addObject", name: "lightpoleguy", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_guy.png",
+                                            src: "assets/images/backgrounds/lightpole_guy.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2211,7 +2211,7 @@ window.OverworldMaps = function (name, index) {
                                     {type: "playScare", src: "scare1"},
                                     {type: "removeObject", object: null, who: "lamp4", text: ""},
                                     {type: "addObject", name: "lightpoleguy", inside: new GameObject({
-                                            src: "./assets/images/backgrounds/lightpole_guy.png",
+                                            src: "assets/images/backgrounds/lightpole_guy.png",
                                             x: utils.withGrid(57),
                                             y : utils.withGrid(0),
                                             width: 30,
@@ -2226,8 +2226,8 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "Outside",
-                        lowerSrc: "./assets/images/backgrounds/street.png",
-                        upperSrc: "./assets/images/backgrounds/street_upper_darkest.png",
+                        lowerSrc: "assets/images/backgrounds/street.png",
+                        upperSrc: "assets/images/backgrounds/street_upper_darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -2238,28 +2238,28 @@ window.OverworldMaps = function (name, index) {
                             lamp1 : new GameObject({
                                 x: utils.withGrid(3),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_guy.png",
+                                src: "assets/images/backgrounds/lightpole_guy.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp2 : new GameObject({
                                 x: utils.withGrid(21),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_guy.png",
+                                src: "assets/images/backgrounds/lightpole_guy.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp3 : new GameObject({
                                 x: utils.withGrid(39),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_guy.png",
+                                src: "assets/images/backgrounds/lightpole_guy.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp4 : new GameObject({
                                 x: utils.withGrid(57),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_guy.png",
+                                src: "assets/images/backgrounds/lightpole_guy.png",
                                 width: 30,
                                 height: 161
                             })
@@ -2298,8 +2298,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "Outside",
-                        lowerSrc: "./assets/images/backgrounds/street.png",
-                        upperSrc: "./assets/images/backgrounds/street_upper_darkest.png",
+                        lowerSrc: "assets/images/backgrounds/street.png",
+                        upperSrc: "assets/images/backgrounds/street_upper_darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -2310,28 +2310,28 @@ window.OverworldMaps = function (name, index) {
                             lamp1 : new GameObject({
                                 x: utils.withGrid(3),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp2 : new GameObject({
                                 x: utils.withGrid(21),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp3 : new GameObject({
                                 x: utils.withGrid(39),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             }),
                             lamp4 : new GameObject({
                                 x: utils.withGrid(57),
                                 y : utils.withGrid(0),
-                                src: "./assets/images/backgrounds/lightpole_off.png",
+                                src: "assets/images/backgrounds/lightpole_off.png",
                                 width: 30,
                                 height: 161
                             })
@@ -2375,7 +2375,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "GFFrontyard",
-                        lowerSrc: "./assets/images/backgrounds/frontyard.png",
+                        lowerSrc: "assets/images/backgrounds/frontyard.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -2414,8 +2414,8 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "GFFrontyard",
-                        lowerSrc: "./assets/images/backgrounds/frontyard.png",
-                        upperSrc: "./assets/images/backgrounds/dark.png",
+                        lowerSrc: "assets/images/backgrounds/frontyard.png",
+                        upperSrc: "assets/images/backgrounds/dark.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -2465,8 +2465,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "GFFrontyard",
-                        lowerSrc: "./assets/images/backgrounds/frontyard.png",
-                        upperSrc: "./assets/images/backgrounds/darkest.png",
+                        lowerSrc: "assets/images/backgrounds/frontyard.png",
+                        upperSrc: "assets/images/backgrounds/darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -2514,8 +2514,8 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "GFBackyard",
-                        lowerSrc: "./assets/images/backgrounds/backyard.png",
-                        upperSrc: "./assets/images/backgrounds/dark.png",
+                        lowerSrc: "assets/images/backgrounds/backyard.png",
+                        upperSrc: "assets/images/backgrounds/dark.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -2527,13 +2527,13 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(5),
                                 y: utils.withGrid(6),
-                                src: "./assets/images/characters/dog.png",
+                                src: "assets/images/characters/dog.png",
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1}
                                 ]
                             }),
                             bush1: new GameObject({
-                                src: "./assets/images/objects/bush1.png",
+                                src: "assets/images/objects/bush1.png",
                                 x: utils.withGrid(0),
                                 y: utils.withGrid(2),
                                 width: 40,
@@ -2545,7 +2545,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush2: new GameObject({
-                                src: "./assets/images/objects/bush2.png",
+                                src: "assets/images/objects/bush2.png",
                                 x: utils.withGrid(14),
                                 y: utils.withGrid(2),
                                 width: 77,
@@ -2557,7 +2557,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush3: new GameObject({
-                                src: "./assets/images/objects/bush3.png",
+                                src: "assets/images/objects/bush3.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(8),
                                 width: 81,
@@ -2569,7 +2569,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush4: new GameObject({
-                                src: "./assets/images/objects/bush4.png",
+                                src: "assets/images/objects/bush4.png",
                                 x: utils.withGrid(17),
                                 y: utils.withGrid(8),
                                 width: 62,
@@ -2625,8 +2625,8 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "GFBackyard",
-                        lowerSrc: "./assets/images/backgrounds/backyard.png",
-                        upperSrc: "./assets/images/backgrounds/darker.png",
+                        lowerSrc: "assets/images/backgrounds/backyard.png",
+                        upperSrc: "assets/images/backgrounds/darker.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -2638,13 +2638,13 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(5),
                                 y: utils.withGrid(6),
-                                src: "./assets/images/characters/dog.png",
+                                src: "assets/images/characters/dog.png",
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1}
                                 ]
                             }),
                             bush1: new GameObject({
-                                src: "./assets/images/objects/bush1.png",
+                                src: "assets/images/objects/bush1.png",
                                 x: utils.withGrid(0),
                                 y: utils.withGrid(2),
                                 width: 40,
@@ -2656,7 +2656,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush2: new GameObject({
-                                src: "./assets/images/objects/bush2.png",
+                                src: "assets/images/objects/bush2.png",
                                 x: utils.withGrid(14),
                                 y: utils.withGrid(2),
                                 width: 77,
@@ -2668,7 +2668,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush3: new GameObject({
-                                src: "./assets/images/objects/bush3.png",
+                                src: "assets/images/objects/bush3.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(8),
                                 width: 81,
@@ -2680,7 +2680,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush4: new GameObject({
-                                src: "./assets/images/objects/bush4.png",
+                                src: "assets/images/objects/bush4.png",
                                 x: utils.withGrid(17),
                                 y: utils.withGrid(8),
                                 width: 62,
@@ -2735,8 +2735,8 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "GFBackyard",
-                        lowerSrc: "./assets/images/backgrounds/backyard.png",
-                        upperSrc: "./assets/images/backgrounds/darkest.png",
+                        lowerSrc: "assets/images/backgrounds/backyard.png",
+                        upperSrc: "assets/images/backgrounds/darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -2748,13 +2748,13 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(5),
                                 y: utils.withGrid(6),
-                                src: "./assets/images/characters/dog.png",
+                                src: "assets/images/characters/dog.png",
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1}
                                 ]
                             }),
                             bush1: new GameObject({
-                                src: "./assets/images/objects/bush1.png",
+                                src: "assets/images/objects/bush1.png",
                                 x: utils.withGrid(0),
                                 y: utils.withGrid(2),
                                 width: 40,
@@ -2766,7 +2766,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush2: new GameObject({
-                                src: "./assets/images/objects/bush2.png",
+                                src: "assets/images/objects/bush2.png",
                                 x: utils.withGrid(14),
                                 y: utils.withGrid(2),
                                 width: 77,
@@ -2778,7 +2778,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush3: new GameObject({
-                                src: "./assets/images/objects/bush3.png",
+                                src: "assets/images/objects/bush3.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(8),
                                 width: 81,
@@ -2790,7 +2790,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             bush4: new GameObject({
-                                src: "./assets/images/objects/bush4.png",
+                                src: "assets/images/objects/bush4.png",
                                 x: utils.withGrid(17),
                                 y: utils.withGrid(8),
                                 width: 62,
@@ -2850,7 +2850,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "GFFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -2863,7 +2863,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(17),
                                 y: utils.withGrid(14),
-                                src: "./assets/images/characters/gf_dad.png",
+                                src: "assets/images/characters/gf_dad.png",
                                 behaviorLoop: [
                                     {type: "stand", direction: "", time: -1}
                                 ]
@@ -2872,7 +2872,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(23),
                                 y: utils.withGrid(14),
-                                src: "./assets/images/characters/gf_mom.png",
+                                src: "assets/images/characters/gf_mom.png",
                                 behaviorLoop: [
                                     {type: "stand", direction: "", time: -1}
                                 ]
@@ -2880,7 +2880,7 @@ window.OverworldMaps = function (name, index) {
                             hidingSpot: new Person({
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(2),
-                                src: "./assets/images/characters/invisible_guy.png",
+                                src: "assets/images/characters/invisible_guy.png",
                                 talking: [{
                                     events: [
                                         {who: "hero", type: "hidingToggle"}
@@ -2888,28 +2888,28 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv.png",
+                                src: "assets/images/objects/tv.png",
                                 x: utils.withGrid(22),
                                 y: utils.withGrid(1),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair.png",
+                                src: "assets/images/objects/chair.png",
                                 x: utils.withGrid(19),
                                 y: utils.withGrid(2),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa.png",
+                                src: "assets/images/objects/sofa.png",
                                 x: utils.withGrid(21),
                                 y: utils.withGrid(5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard.png",
+                                src: "assets/images/objects/cupboard.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(2),
                                 width: 29,
@@ -2921,7 +2921,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table.png",
+                                src: "assets/images/objects/table.png",
                                 x: utils.withGrid(18),
                                 y: utils.withGrid(11),
                                 width: 82,
@@ -2933,7 +2933,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop.png",
+                                src: "assets/images/objects/chairtop.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(10),
                                 width: 14,
@@ -2945,7 +2945,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom.png",
+                                src: "assets/images/objects/chairbottom.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(15),
                                 width: 15,
@@ -2957,7 +2957,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft.png",
+                                src: "assets/images/objects/chairleft.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(12),
                                 width: 22,
@@ -2969,7 +2969,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright.png",
+                                src: "assets/images/objects/chairright.png",
                                 x: utils.withGrid(24),
                                 y: utils.withGrid(12),
                                 width: 18,
@@ -2981,7 +2981,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen.png",
+                                src: "assets/images/objects/kitchen.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -2993,14 +2993,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant.png",
+                                src: "assets/images/objects/plant.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(10),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink.png",
+                                src: "assets/images/objects/sink.png",
                                 x: utils.withGrid(4),
                                 y: utils.withGrid(12),
                                 width: 50,
@@ -3012,14 +3012,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet.png",
+                                src: "assets/images/objects/toilet.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(15),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub.png",
+                                src: "assets/images/objects/bathtub.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(13),
                                 width: 25,
@@ -3071,7 +3071,7 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "GFFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -3084,7 +3084,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(21),
                                 y: utils.withGrid(8),
-                                src: "./assets/images/characters/gf_dad.png",
+                                src: "assets/images/characters/gf_dad.png",
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1},
                                     {type: "stand", direction: "", time: -1}
@@ -3094,7 +3094,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(7),
                                 y: utils.withGrid(4),
-                                src: "./assets/images/characters/gf_mom.png",
+                                src: "assets/images/characters/gf_mom.png",
                                 returnAfterChase: true,
                                 behaviorLoop: [
                                     {type: "stand", direction: "", time: -1},
@@ -3109,7 +3109,7 @@ window.OverworldMaps = function (name, index) {
                             hidingSpot: new Person({
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(2),
-                                src: "./assets/images/characters/invisible_guy.png",
+                                src: "assets/images/characters/invisible_guy.png",
                                 talking: [{
                                     events: [
                                         {who: "hero", type: "hidingToggle"}
@@ -3117,28 +3117,28 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv.png",
+                                src: "assets/images/objects/tv.png",
                                 x: utils.withGrid(22),
                                 y: utils.withGrid(1),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair.png",
+                                src: "assets/images/objects/chair.png",
                                 x: utils.withGrid(19),
                                 y: utils.withGrid(2),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa.png",
+                                src: "assets/images/objects/sofa.png",
                                 x: utils.withGrid(21),
                                 y: utils.withGrid(5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard.png",
+                                src: "assets/images/objects/cupboard.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(2),
                                 width: 29,
@@ -3150,7 +3150,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table.png",
+                                src: "assets/images/objects/table.png",
                                 x: utils.withGrid(18),
                                 y: utils.withGrid(11),
                                 width: 82,
@@ -3162,7 +3162,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop.png",
+                                src: "assets/images/objects/chairtop.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(10),
                                 width: 14,
@@ -3174,7 +3174,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom.png",
+                                src: "assets/images/objects/chairbottom.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(15),
                                 width: 15,
@@ -3186,7 +3186,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft.png",
+                                src: "assets/images/objects/chairleft.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(12),
                                 width: 22,
@@ -3198,7 +3198,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright.png",
+                                src: "assets/images/objects/chairright.png",
                                 x: utils.withGrid(24),
                                 y: utils.withGrid(12),
                                 width: 18,
@@ -3210,7 +3210,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen.png",
+                                src: "assets/images/objects/kitchen.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -3222,14 +3222,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant.png",
+                                src: "assets/images/objects/plant.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(10),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink.png",
+                                src: "assets/images/objects/sink.png",
                                 x: utils.withGrid(4),
                                 y: utils.withGrid(12),
                                 width: 50,
@@ -3241,14 +3241,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet.png",
+                                src: "assets/images/objects/toilet.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(15),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub.png",
+                                src: "assets/images/objects/bathtub.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(13),
                                 width: 25,
@@ -3300,14 +3300,14 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "GFFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
                             key: new Items({
                                 x: utils.withGrid(22),
                                 y: utils.withGrid(12),
-                                src: "./assets/images/items/key.png",
+                                src: "assets/images/items/key.png",
                                 talking: [{
                                     events: [
                                         {type: "itemPicked", who: "key"}
@@ -3317,7 +3317,7 @@ window.OverworldMaps = function (name, index) {
                             pills: new Items({
                                 x: utils.withGrid(6),
                                 y: utils.withGrid(14),
-                                src: "./assets/images/items/pills.png",
+                                src: "assets/images/items/pills.png",
                                 talking: [{
                                     events: [
                                         {type: "textMessage", text: "'Sleeping pills'..."},
@@ -3331,7 +3331,7 @@ window.OverworldMaps = function (name, index) {
                             fridge: new Person({
                                 x: utils.withGrid(1),
                                 y: utils.withGrid(8),
-                                src: "./assets/images/characters/invisible_guy.png",
+                                src: "assets/images/characters/invisible_guy.png",
                                 talking: [{
                                     events: [
                                         {type: "removeObject", object: "pills", who: "fridge", text: "There is food inside. I could add something.."}
@@ -3348,7 +3348,7 @@ window.OverworldMaps = function (name, index) {
                                 x: utils.withGrid(24),
                                 y: utils.withGrid(8),
                                 returnAfterChase: true,
-                                src: "./assets/images/characters/gf_dad.png",
+                                src: "assets/images/characters/gf_dad.png",
                                 behaviorLoop: [
                                     {type: "stand", direction: "", time: -1},
                                     {type: "walk", direction: "left", time: 7},
@@ -3371,7 +3371,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(7),
                                 y: utils.withGrid(4),
-                                src: "./assets/images/characters/gf_mom.png",
+                                src: "assets/images/characters/gf_mom.png",
                                 returnAfterChase: true,
                                 behaviorLoop: [
                                     {type: "stand", direction: "", time: -1},
@@ -3413,7 +3413,7 @@ window.OverworldMaps = function (name, index) {
                             keyhole1: new GameObject({
                                 x: utils.withGrid(13),
                                 y: utils.withGrid(4),
-                                src: "./assets/images/objects/keyblock.png",
+                                src: "assets/images/objects/keyblock.png",
                                 width: 32,
                                 height: 16,
                                 talking: [{
@@ -3425,14 +3425,14 @@ window.OverworldMaps = function (name, index) {
                             keyhole2: new GameObject({
                                 x: utils.withGrid(12),
                                 y: utils.withGrid(4),
-                                src: "./assets/images/objects/keyblock.png",
+                                src: "assets/images/objects/keyblock.png",
                                 width: 32,
                                 height: 16
                             }),
                             hidingSpot: new Person({
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(2),
-                                src: "./assets/images/characters/invisible_guy.png",
+                                src: "assets/images/characters/invisible_guy.png",
                                 talking: [{
                                     events: [
                                         {who: "hero", type: "hidingToggle"}
@@ -3440,28 +3440,28 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv.png",
+                                src: "assets/images/objects/tv.png",
                                 x: utils.withGrid(22),
                                 y: utils.withGrid(1),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair.png",
+                                src: "assets/images/objects/chair.png",
                                 x: utils.withGrid(19),
                                 y: utils.withGrid(2),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa.png",
+                                src: "assets/images/objects/sofa.png",
                                 x: utils.withGrid(21),
                                 y: utils.withGrid(5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard.png",
+                                src: "assets/images/objects/cupboard.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(2),
                                 width: 29,
@@ -3473,7 +3473,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table.png",
+                                src: "assets/images/objects/table.png",
                                 x: utils.withGrid(18),
                                 y: utils.withGrid(11),
                                 width: 82,
@@ -3485,7 +3485,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop.png",
+                                src: "assets/images/objects/chairtop.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(10),
                                 width: 14,
@@ -3497,7 +3497,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom.png",
+                                src: "assets/images/objects/chairbottom.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(15),
                                 width: 15,
@@ -3509,7 +3509,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft.png",
+                                src: "assets/images/objects/chairleft.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(12),
                                 width: 22,
@@ -3521,7 +3521,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright.png",
+                                src: "assets/images/objects/chairright.png",
                                 x: utils.withGrid(24),
                                 y: utils.withGrid(12),
                                 width: 18,
@@ -3533,7 +3533,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen.png",
+                                src: "assets/images/objects/kitchen.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -3545,14 +3545,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant.png",
+                                src: "assets/images/objects/plant.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(10),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink.png",
+                                src: "assets/images/objects/sink.png",
                                 x: utils.withGrid(4),
                                 y: utils.withGrid(12),
                                 width: 50,
@@ -3564,14 +3564,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet.png",
+                                src: "assets/images/objects/toilet.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(15),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub.png",
+                                src: "assets/images/objects/bathtub.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(13),
                                 width: 25,
@@ -3623,7 +3623,7 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "GFFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_first_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_first_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -3636,7 +3636,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(21),
                                 y: utils.withGrid(8),
-                                src: "./assets/images/characters/gf_dad.png",
+                                src: "assets/images/characters/gf_dad.png",
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1}
                                 ]
@@ -3645,7 +3645,7 @@ window.OverworldMaps = function (name, index) {
                                 isEnemy: true,
                                 x: utils.withGrid(7),
                                 y: utils.withGrid(4),
-                                src: "./assets/images/characters/gf_mom.png",
+                                src: "assets/images/characters/gf_mom.png",
                                 returnAfterChase: true,
                                 behaviorLoop: [
                                     {type: "walk", direction: "random", time: -1}
@@ -3654,7 +3654,7 @@ window.OverworldMaps = function (name, index) {
                             hidingSpot: new Person({
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(2),
-                                src: "./assets/images/characters/invisible_guy.png",
+                                src: "assets/images/characters/invisible_guy.png",
                                 talking: [{
                                     events: [
                                         {who: "hero", type: "hidingToggle"}
@@ -3662,28 +3662,28 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv.png",
+                                src: "assets/images/objects/tv.png",
                                 x: utils.withGrid(22),
                                 y: utils.withGrid(1),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair.png",
+                                src: "assets/images/objects/chair.png",
                                 x: utils.withGrid(19),
                                 y: utils.withGrid(2),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa.png",
+                                src: "assets/images/objects/sofa.png",
                                 x: utils.withGrid(21),
                                 y: utils.withGrid(5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard.png",
+                                src: "assets/images/objects/cupboard.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(2),
                                 width: 29,
@@ -3695,7 +3695,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table.png",
+                                src: "assets/images/objects/table.png",
                                 x: utils.withGrid(18),
                                 y: utils.withGrid(11),
                                 width: 82,
@@ -3707,7 +3707,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop.png",
+                                src: "assets/images/objects/chairtop.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(10),
                                 width: 14,
@@ -3719,7 +3719,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom.png",
+                                src: "assets/images/objects/chairbottom.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(15),
                                 width: 15,
@@ -3731,7 +3731,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft.png",
+                                src: "assets/images/objects/chairleft.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(12),
                                 width: 22,
@@ -3743,7 +3743,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright.png",
+                                src: "assets/images/objects/chairright.png",
                                 x: utils.withGrid(24),
                                 y: utils.withGrid(12),
                                 width: 18,
@@ -3755,7 +3755,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen.png",
+                                src: "assets/images/objects/kitchen.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -3767,14 +3767,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant.png",
+                                src: "assets/images/objects/plant.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(10),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink.png",
+                                src: "assets/images/objects/sink.png",
                                 x: utils.withGrid(4),
                                 y: utils.withGrid(12),
                                 width: 50,
@@ -3786,14 +3786,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet.png",
+                                src: "assets/images/objects/toilet.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(15),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub.png",
+                                src: "assets/images/objects/bathtub.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(13),
                                 width: 25,
@@ -3845,8 +3845,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "GFFirstFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_first_floor.png",
-                        upperSrc: "./assets/images/backgrounds/darkest.png",
+                        lowerSrc: "assets/images/backgrounds/gf_first_floor.png",
+                        upperSrc: "assets/images/backgrounds/darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -3857,7 +3857,7 @@ window.OverworldMaps = function (name, index) {
                             hidingSpot: new Person({
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(2),
-                                src: "./assets/images/characters/invisible_guy.png",
+                                src: "assets/images/characters/invisible_guy.png",
                                 talking: [{
                                     events: [
                                         {who: "hero", type: "hidingToggle"}
@@ -3865,28 +3865,28 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             tv: new GameObject({
-                                src: "./assets/images/objects/tv.png",
+                                src: "assets/images/objects/tv.png",
                                 x: utils.withGrid(22),
                                 y: utils.withGrid(1),
                                 width: 46,
                                 height: 47
                             }),
                             chair: new GameObject({
-                                src: "./assets/images/objects/chair.png",
+                                src: "assets/images/objects/chair.png",
                                 x: utils.withGrid(19),
                                 y: utils.withGrid(2),
                                 width: 40,
                                 height: 39
                             }),
                             sofa: new GameObject({
-                                src: "./assets/images/objects/sofa.png",
+                                src: "assets/images/objects/sofa.png",
                                 x: utils.withGrid(21),
                                 y: utils.withGrid(5),
                                 width: 64,
                                 height: 27
                             }),
                             cupboard: new GameObject({
-                                src: "./assets/images/objects/cupboard.png",
+                                src: "assets/images/objects/cupboard.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(2),
                                 width: 29,
@@ -3898,7 +3898,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             table: new GameObject({
-                                src: "./assets/images/objects/table.png",
+                                src: "assets/images/objects/table.png",
                                 x: utils.withGrid(18),
                                 y: utils.withGrid(11),
                                 width: 82,
@@ -3910,7 +3910,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairtop: new GameObject({
-                                src: "./assets/images/objects/chairtop.png",
+                                src: "assets/images/objects/chairtop.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(10),
                                 width: 14,
@@ -3922,7 +3922,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairbottom: new GameObject({
-                                src: "./assets/images/objects/chairbottom.png",
+                                src: "assets/images/objects/chairbottom.png",
                                 x: utils.withGrid(20),
                                 y: utils.withGrid(15),
                                 width: 15,
@@ -3934,7 +3934,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairleft: new GameObject({
-                                src: "./assets/images/objects/chairleft.png",
+                                src: "assets/images/objects/chairleft.png",
                                 x: utils.withGrid(16),
                                 y: utils.withGrid(12),
                                 width: 22,
@@ -3946,7 +3946,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             chairright: new GameObject({
-                                src: "./assets/images/objects/chairright.png",
+                                src: "assets/images/objects/chairright.png",
                                 x: utils.withGrid(24),
                                 y: utils.withGrid(12),
                                 width: 18,
@@ -3958,7 +3958,7 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             kitchen: new GameObject({
-                                src: "./assets/images/objects/kitchen.png",
+                                src: "assets/images/objects/kitchen.png",
                                 x: utils.withGrid(1.5),
                                 y: utils.withGrid(1.5),
                                 width: 146,
@@ -3970,14 +3970,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             plant: new GameObject({
-                                src: "./assets/images/objects/plant.png",
+                                src: "assets/images/objects/plant.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(10),
                                 width: 23,
                                 height: 29
                             }),
                             sink: new GameObject({
-                                src: "./assets/images/objects/sink.png",
+                                src: "assets/images/objects/sink.png",
                                 x: utils.withGrid(4),
                                 y: utils.withGrid(12),
                                 width: 50,
@@ -3989,14 +3989,14 @@ window.OverworldMaps = function (name, index) {
                                 }]
                             }),
                             toilet: new GameObject({
-                                src: "./assets/images/objects/toilet.png",
+                                src: "assets/images/objects/toilet.png",
                                 x: utils.withGrid(9),
                                 y: utils.withGrid(15),
                                 width: 20,
                                 height: 25
                             }),
                             bathtub: new GameObject({
-                                src: "./assets/images/objects/bathtub.png",
+                                src: "assets/images/objects/bathtub.png",
                                 x: utils.withGrid(2),
                                 y: utils.withGrid(13),
                                 width: 25,
@@ -4052,7 +4052,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "GFSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -4085,7 +4085,7 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "GFSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -4118,7 +4118,7 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "GFSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -4151,7 +4151,7 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "GFSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/gf_second_floor.png",
                         upperSrc: "",
                         music: "Calm",
                         gameObjects: {
@@ -4184,8 +4184,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "GFSecondFloor",
-                        lowerSrc: "./assets/images/backgrounds/gf_second_floor.png",
-                        upperSrc: "./assets/images/backgrounds/darkest.png",
+                        lowerSrc: "assets/images/backgrounds/gf_second_floor.png",
+                        upperSrc: "assets/images/backgrounds/darkest.png",
                         music: "Calm",
                         gameObjects: {
                             hero: new Person({
@@ -4222,7 +4222,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "VNPartGFHouse",
-                        lowerSrc: "./assets/images/backgrounds/gf_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/gf_bedroom.png",
                         upperSrc: "",
                         music: "VNStartGF",
                         gameObjects: {
@@ -4271,7 +4271,7 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "VNPartGFHouse",
-                        lowerSrc: "./assets/images/backgrounds/gf_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/gf_bedroom.png",
                         upperSrc: "",
                         music: "VNStartGF",
                         gameObjects: {
@@ -4319,7 +4319,7 @@ window.OverworldMaps = function (name, index) {
                 case 2:
                     return {
                         id: "VNPartGFHouse",
-                        lowerSrc: "./assets/images/backgrounds/gf_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/gf_bedroom.png",
                         upperSrc: "",
                         music: "VNStartGF",
                         gameObjects: {
@@ -4359,7 +4359,7 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "VNPartGFHouse",
-                        lowerSrc: "./assets/images/backgrounds/gf_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/gf_bedroom.png",
                         upperSrc: "",
                         music: "VNStartGF",
                         gameObjects: {
@@ -4393,8 +4393,8 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                         id: "VNPartGFHouse",
-                        lowerSrc: "./assets/images/backgrounds/gf_bedroom.png",
-                        upperSrc: "./assets/images/backgrounds/dark.png",
+                        lowerSrc: "assets/images/backgrounds/gf_bedroom.png",
+                        upperSrc: "assets/images/backgrounds/dark.png",
                         music: "VNEnd",
                         gameObjects: {
                             hero: new Person({
@@ -4435,8 +4435,8 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "InCloset",
-                        lowerSrc: "./assets/images/backgrounds/gf_bedroom_closet.png",
-                        upperSrc: "./assets/images/backgrounds/gf_bedroom_closet_upper.png",
+                        lowerSrc: "assets/images/backgrounds/gf_bedroom_closet.png",
+                        upperSrc: "assets/images/backgrounds/gf_bedroom_closet_upper.png",
                         music: "VNStartGF",
                         gameObjects: {
                             hero: new Person({
@@ -4475,7 +4475,7 @@ window.OverworldMaps = function (name, index) {
                 case 3:
                     return {
                         id: "OutOfCloset",
-                        lowerSrc: "./assets/images/backgrounds/gf_bedroom.png",
+                        lowerSrc: "assets/images/backgrounds/gf_bedroom.png",
                         upperSrc: "",
                         music: "VNStartGF",
                         gameObjects: {
@@ -4511,7 +4511,7 @@ window.OverworldMaps = function (name, index) {
                 case 4:
                     return {
                             id: "TheEnd",
-                            lowerSrc: "./assets/images/UI/theend.png",
+                            lowerSrc: "assets/images/UI/theend.png",
                             upperSrc: "",
                             music: "VNEnd",
                             gameObjects: {
