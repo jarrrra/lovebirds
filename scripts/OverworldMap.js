@@ -369,7 +369,7 @@ window.OverworldMaps = function (name, index) {
                 case 0:
                     return {
                         id: "VNPartMCHouse",
-                        lowerSrc: "./assets/images/backgrounds/mc_bedroom.png",
+                        lowerSrc: "../assets/images/backgrounds/mc_bedroom.png",
                         upperSrc: "",
                         music: "VNStartMC",
                         gameObjects: {
@@ -4425,3 +4425,4 @@ window.OverworldMaps = function (name, index) {
     }
 
 }
+
