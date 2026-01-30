@@ -207,6 +207,7 @@ class OverworldMap {
                 this.message.element.remove();
                 this.message = null;
             }
+            
 
             this.startCutscene([
                 {type: "changeMap", map: this.overworld.progress.mapId}
@@ -273,7 +274,7 @@ window.OverworldMaps = function (name, index) {
                             npc1: new Person({
                                 x: utils.withGrid(10),
                                 y: utils.withGrid(2),
-                                src: "/assets/images/characters/gf_dad.png",
+                                src: "assets/images/characters/gf_dad.png",
                                 talking: [{
                                     events: [
                                         {type: "removeObject", object: "key", who: "npc1", text: "Need a key"}
@@ -297,7 +298,7 @@ window.OverworldMaps = function (name, index) {
                 case 1:
                     return {
                         id: "DemoRoom",
-                        lowerSrc: "/assets/images/backgrounds/mc_second_floor.png",
+                        lowerSrc: "assets/images/backgrounds/mc_second_floor.png",
                         upperSrc: "",
                         gameObjects: {
                             hero: new Person({
@@ -325,7 +326,7 @@ window.OverworldMaps = function (name, index) {
             switch (index) {
                 case 0:
                     return {id: "DemoRoom1",
-                            lowerSrc: "/assets/images/backgrounds/mc_first_floor.png",
+                            lowerSrc: "assets/images/backgrounds/mc_first_floor.png",
                             upperSrc: "",
                             gameObjects: {
                                     hero: new Person({
@@ -336,7 +337,7 @@ window.OverworldMaps = function (name, index) {
                                     hidingSpot: new Person({
                                         x: utils.withGrid(8),
                                         y: utils.withGrid(6),
-                                        src: "/assets/images/characters/invisible_guy.png",
+                                        src: "assets/images/characters/invisible_guy.png",
                                         talking: [{
                                             events: [
                                                 {who: "hero", type: "hidingToggle"}
@@ -346,7 +347,7 @@ window.OverworldMaps = function (name, index) {
                                     npc1: new Person({
                                         x: utils.withGrid(10),
                                         y: utils.withGrid(2),
-                                        src: "/assets/images/characters/gf_dad.png",
+                                        src: "assets/images/characters/gf_dad.png",
                                         behaviorLoop: [
                                             // {type: "walk", direction: "random", time: -1},
                                             {type: "stand", direction: "", time: -1}
@@ -3403,7 +3404,7 @@ window.OverworldMaps = function (name, index) {
                                     {type: "walk", direction: "down", time: 2},
                                     {type: "stand", direction: "", time: -1},
                                     {type: "addObject", name: "food", inside: new GameObject({
-                                            src: "/assets/images/objects/food.png",
+                                            src: "assets/images/objects/food.png",
                                             x: utils.withGrid(18),
                                             y: utils.withGrid(12),
                                             width: 16,
