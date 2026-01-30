@@ -13,7 +13,7 @@ class GameObject {
         this.direction = config.direction || "down";
         this.sprite = new Sprite({
             gameObject: this,
-            src: config.src || "/assets/images/characters/mc.png",
+            src: config.src || "./assets/images/characters/mc.png",
             animations: {
                 "idle": [
                     [0, 0]
@@ -73,4 +73,5 @@ class GameObject {
 
         this.doBehaviourEvent(map);
     }
+
 }
