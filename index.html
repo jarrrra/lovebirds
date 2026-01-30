@@ -26,11 +26,11 @@
             <table class="game-controls">
                 <tr>
                     <td class="control-split">
-                        <button id="up" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">W</button>
+                        <button id="up" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" ontouchstart="window.keyPressed(this.id)" ontouchend="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">W</button>
                         <br/>
-                        <button id="left" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">A</button>
-                        <button id="down" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">S</button>
-                        <button id="right" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">D</button>
+                        <button id="left" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" ontouchstart="window.keyPressed(this.id)" ontouchend="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">A</button>
+                        <button id="down" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" ontouchstart="window.keyPressed(this.id)" ontouchend="window.keyLifted(this.id)" onmouseleave="window.keyLifted(this.id)">S</button>
+                        <button id="right" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" ontouchstart="window.keyPressed(this.id)" ontouchend="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">D</button>
                     </td>
                     <td class="control-split">
                         <button id="interact" class="controls" onclick="window.interactPressed()" onmouseover="window.hovered(true, this.id)" onmouseleave="window.hovered(false, this.id)">Z</button>
