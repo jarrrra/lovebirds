@@ -91,7 +91,7 @@ class OverworldEvent {
 
         if (this.event.object === null || (this.map.overworld.inventory && this.map.overworld.inventory.id === this.event.object)) {
             if (this.event.who === "fridge") {
-                this.map.gameObjects["sleeping_state"] = new GameObject({ src: "./assets/images/characters/invisible_guy.png" });
+                this.map.gameObjects["sleeping_state"] = new GameObject({ src: "assets/images/characters/invisible_guy.png" });
                 this.map.gameObjects["sleeping_state"].id = "sleeping_state";
             }
 

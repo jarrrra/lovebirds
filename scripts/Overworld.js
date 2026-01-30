@@ -11,7 +11,7 @@ class Overworld {
         this.camera = {x: 144, y: 104};
 
         this.lines = new Image();
-        this.lines.src = "./assets/images/backgrounds/lines.png";
+        this.lines.src = "assets/images/backgrounds/lines.png";
 
         this.music = new Audio();
         this.music.loop = true;
@@ -20,12 +20,12 @@ class Overworld {
     }
 
     musicChangeSrc(src) {
-        this.music.src = "./assets/sounds/music/" + src + ".mp3";
+        this.music.src = "assets/sounds/music/" + src + ".mp3";
         this.music.play();
     }
 
     scareChangeSrc(src) {
-        this.scare.src = "./assets/sounds/sfx/" + src + ".mp3";
+        this.scare.src = "assets/sounds/sfx/" + src + ".mp3";
         this.scare.play();
     }
 

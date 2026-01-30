@@ -4,7 +4,7 @@ class RevealingText {
         this.text = config.text;
         this.speed = config.speed || 60;
 
-        this.typewriter =  new Audio("./assets/sounds/sfx/typing.mp3");
+        this.typewriter =  new Audio("assets/sounds/sfx/typing.mp3");
 
         this.timeout = null;
         this.isDone = false;

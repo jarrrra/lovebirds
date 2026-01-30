@@ -2,7 +2,7 @@ class SceneTransition {
     constructor() {
         this.element = null;
 
-        this.transition =  new Audio("./assets/sounds/sfx/scary_transition.mp3");
+        this.transition =  new Audio("assets/sounds/sfx/scary_transition.mp3");
     }
 
     createElement() {
