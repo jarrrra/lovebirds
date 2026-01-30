@@ -129,7 +129,7 @@ class Overworld {
     }
 
     startMap(mapConfig, mapLevel = 0) {
-        console.log(this.progress.mapId, mapLevel);
+        //console.log(this.progress.mapId, mapLevel);
 
         this.inventory = null;
         this.map = new OverworldMap(window.OverworldMaps(mapConfig, mapLevel));
@@ -154,7 +154,7 @@ class Overworld {
 
         }
 
-        console.log(this.camera);
+        //console.log(this.camera);
 
         this.progress.mapId = this.map.id;
         this.progress.mapLevel = mapLevel;
