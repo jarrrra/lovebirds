@@ -1,0 +1,32 @@
+.TitleScreen {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000;
+}
+
+.TitleScreen_div {
+    position: absolute;
+    left: 220px;
+    right: 0;
+    top: 80px;
+    bottom: 0;
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+}
+
+.TitleScreen_button {
+    color: #ffffff;
+    justify-content: center;
+    padding: 2px;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+}
+
+.hovered {
+    color: var(--menu-selected-background);
+}

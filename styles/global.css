@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+:root {
+    --border-color: #ffffff;
+    --dialogue-background: #000000;
+
+    --menu-background: #000000;
+    --menu-border-color: #ffffff;
+    --menu-font-color: #ffffff;
+    --menu-selected-background: #ffee00;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+    background : #000000;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Anton", sans-serif;
+}
+
+.game-container {
+    position: relative;
+    width: 320px;
+    height: 240px;
+    margin: 0 auto;
+    outline: 1px solid white;
+
+    transform: scale(2) translateY(50%);
+}
+
+.game-container canvas {
+    image-rendering: pixelated;
+    margin: 0 auto;
+}
+
+.container {
+    border-collapse: collapse;
+}
+
+.instructions {
+    padding: 50px;
+    color: #5e5e5e;
+    margin: 0 auto;
+    font-family: inherit;
+}
+
+.instructions p {
+    font-size: 10px;
+    color: #3e3e3e;
+}
+
+.game-controls {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-family: inherit;
+}
+
+.control-split {
+    width: 50%;
+    text-align: center;
+}
+
+.controls {
+    color: #ffffff;
+    position: relative;
+    justify-content: center;
+    background: transparent;
+    font-family: inherit;
+}

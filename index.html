@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lovebirds</title>
+    <link href="/styles/global.css" type="text/css" rel="stylesheet">
+    <link href="/styles/TextMessage.css" type="text/css" rel="stylesheet">
+    <link href="/styles/ShowMessage.css" type="text/css" rel="stylesheet">
+    <link href="/styles/SceneTransition.css" type="text/css" rel="stylesheet">
+    <link href="/styles/TitleScreen.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <table class="container">
+            <tr>
+                <td>
+                    <canvas class="game-canvas" width="320px" height="240px"></canvas>
+                </td>
+                <td class="instructions">
+                    Instructions
+                    <p>WASD/arrows - movement<br>Space/"Next" button - dialogue<br>Z - interact</p>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <table class="game-controls">
+                <tr>
+                    <td class="control-split">
+                        <button id="up" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">W</button>
+                        <br/>
+                        <button id="left" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">A</button>
+                        <button id="down" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">S</button>
+                        <button id="right" class="controls" onmousedown="window.keyPressed(this.id)" onmouseup="window.keyLifted(this.id)" onmouseover="window.hovered(true, this.id)" onmouseleave="window.keyLifted(this.id)">D</button>
+                    </td>
+                    <td class="control-split">
+                        <button id="interact" class="controls" onclick="window.interactPressed()" onmouseover="window.hovered(true, this.id)" onmouseleave="window.hovered(false, this.id)">Z</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="/scripts/utils.js"></script>
+    <script src="/scripts/DirectionInput.js"></script>
+    <script src="/scripts/Overworld.js"></script>
+    <script src="/scripts/GameObject.js"></script>
+    <script src="/scripts/Person.js"></script>
+    <script src="/scripts/VNCharacter.js"></script>
+    <script src="/scripts/Items.js"></script>
+    <script src="/scripts/Sprite.js"></script>
+    <script src="/scripts/OverworldMap.js"></script>
+    <script src="/scripts/OverworldEvent.js"></script>
+    <script src="/scripts/TextMessage.js"></script>
+    <script src="/scripts/ShowMessage.js"></script>
+    <script src="/scripts/KeyPressListener.js"></script>
+    <script src="/scripts/RevealingText.js"></script>
+    <script src="/scripts/SceneTransition.js"></script>
+    <script src="/scripts/TitleScreen.js"></script>
+    <script src="/scripts/Progress.js"></script>
+    <script src="/scripts/init.js"></script>
+</body>
+</html>

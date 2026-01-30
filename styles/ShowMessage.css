@@ -1,0 +1,11 @@
+.ShowMessage {
+    text-align: center;
+    margin: 0 auto;
+    bottom: 20px;
+    font-size: 12px;
+    color: var(--menu-font-color);
+    opacity: 1;
+}
+.ShowMessage.hidden {
+    opacity: 0;
+}
